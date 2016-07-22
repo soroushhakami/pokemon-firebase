@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Pokemon Trainers</title>
+  </head>
+  <body>
+    <h1>We haz awesome</h1>
+    <img style="width: 20%" src="https://firebasestorage.googleapis.com/v0/b/pokemon-4a2a7.appspot.com/o/Pokeball.png?alt=media&token=601563ea-563a-4fc1-8fd8-2a9af40c1d5c">
+
+    <input id="pokemon"/><button id="add-pokemon">Add pokemon</button>
+
+    <ul id="pokemon-list">
+    </ul>
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD9m97tJKPqRRgKCPfZhupXnae4Pterwo8",
+        authDomain: "pokemon-4a2a7.firebaseapp.com",
+        databaseURL: "https://pokemon-4a2a7.firebaseio.com",
+        storageBucket: "pokemon-4a2a7.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
